@@ -1,0 +1,9 @@
+services:
+  rag-app:
+    build: .  # Esto hace que Docker use el Dockerfile como base para construir la imagen
+    ports:
+      - "8501:8501" # Abre el puerto 8501 para acceder a la WebUI
+    env_file:
+      - .env
+    volumes:
+      - ./chroma_langchain_db:/app/chroma_langchain_db

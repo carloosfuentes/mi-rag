@@ -1,0 +1,12 @@
+langchain==1.2.17
+langchain-openai
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+langchain-chroma
+langgraph
+sentence-transformers
+faiss-cpu
+bs4
+python-dotenv
+streamlit
