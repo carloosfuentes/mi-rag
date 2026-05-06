@@ -60,3 +60,8 @@ http://localhost:8501
 - Es necesario tener Docker y Docker Compose instalados
 - El sistema está preparado para ejecutarse en entorno local
 - La configuración puede modificarse desde el Dockerfile o docker-compose.yml
+
+# Observaciones
+En caso de que se quiera publicar este RAG, podremos usar Streamlit Cloud, el cual es un servicio gratuito el cual es capaz de publicar el proyecto desde un repositorio público de GitHub.
+
+A la hora de publicar el RAG, deberemos de compartir nuestra clave API con Streamlit (en mi caso es de OpenRouter). De lo contrario, no se podrá utilizar ningún LLM, lo que provocará que el RAG no funcione.
