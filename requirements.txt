@@ -10,3 +10,4 @@ faiss-cpu
 bs4
 python-dotenv
 streamlit
+pypdf
